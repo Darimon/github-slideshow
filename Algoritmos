@@ -1,0 +1,32 @@
+4. Faça um algoritmo que calcule a média de idade dos seus familiares.
+
+Algoritmo: Familia do kct
+var
+num:inteiro
+par: vetor [0..9] de inteiro
+impar: vetor [0..9] de inteiro
+a: inteiro
+
+inicio
+
+para a de 0 ate 9 faca
+escreval("Digite 10 numeros quaisquer")
+leia(num)
+se (num) = 0 entao
+escreval ("insira um valor diferente de 0 por favor")
+fimse
+
+
+
+se num mod 2 = 0 entao
+par[a]<-num
+escreval("o num: ",num," é par")
+senao
+impar[a]<-num
+escreval("o num: ",num," é impar")
+fimse
+fimpara
+
+
+
+fimalgoritmo
